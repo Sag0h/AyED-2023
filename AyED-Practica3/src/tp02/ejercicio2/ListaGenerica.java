@@ -1,4 +1,4 @@
-package tp3_ab.tp02.ejercicio2;
+package tp02.ejercicio2;
 
 
 public abstract class ListaGenerica<T> {
