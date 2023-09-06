@@ -112,11 +112,11 @@ public class ArbolBinario<T> {
     			if(this.tieneHijoIzquierdo()) {
     				this.getHijoIzquierdo().espejo();
     			}
-				ArbolBinario<T> aux = this.getHijoDerecho();
-				this.agregarHijoDerecho(this.getHijoIzquierdo());
-				this.agregarHijoIzquierdo(aux);
+			ArbolBinario<T> aux = this.getHijoDerecho();
+			this.agregarHijoDerecho(this.getHijoIzquierdo());
+			this.agregarHijoIzquierdo(aux);
 
-    	}
+    		}
 		return this;
 	}
 
